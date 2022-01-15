@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       <MainNavigation />
-      <div className='container' style={{maxWidth:'400px'}}>
+      <div className='container' style={{maxWidth:'500px'}}>
         <Routes>
           <Route path="/" element={<AllMeetups />} />
           <Route path="/new-meetup" element={<NewMeetup />} />
