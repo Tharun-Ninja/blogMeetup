@@ -41,6 +41,7 @@ const NewMeetupForm = (props) => {
                 <div className="mb-3">
                     <label htmlFor="image" className='form-label'>Meetup Image Url</label>
                     <input type="url" className="form-control" id='image' ref={inputImageRef} required />
+                    <div className="form-text">Get some Image link address and paste it here ;)</div>
                     <div className="invalid-feedback">
                         Please Enter a valid url
                     </div>

@@ -38,7 +38,7 @@ const AllMeetups = () => {
     return (
         <section>
             <h2 className='my-4 text-center'>All Blog Meetups</h2>
-            <MeetupList data={meetupData} />
+            {meetupData.length === 0 ? <p className='text-center'>No Blog Meetups Yet !! Try adding one :) </p> : <MeetupList data={meetupData} />}
             
         </section>
     )

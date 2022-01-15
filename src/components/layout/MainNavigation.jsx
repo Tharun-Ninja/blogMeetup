@@ -12,7 +12,7 @@ const MainNavigation = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-light bg-light">
             <div className="container">
-                <span className="navbar-brand h1">Blog Meetup</span>
+                <Link to='/' className='navbar-brand h1'>Blog Meetup</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
